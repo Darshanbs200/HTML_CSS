@@ -1,0 +1,97 @@
+/* Apply a CSS Reset to remove default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles for .container */
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(9, 0, 77, 0.65), rgba(9, 0, 77, 0.65)),
+                      url(images/place.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 2px 8%;
+}
+
+/* Styles for nav */
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+}
+
+/* Styles for nav ul */
+nav ul {
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 100px;
+}
+
+/* Styles for nav ul li */
+nav ul li {
+    display: inline-block;
+    margin: 5px 5px;
+    font-style:normal;
+}
+
+/* Styles for nav ul li a */
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-style:italic;
+}
+
+/* Styles for .btn */
+.btn {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    background:#526;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* Styles for .btn img */
+.btn img {
+    width: 15px;
+    margin-right: 10px;
+}
+
+/* Styles for .content */
+.content {
+    margin-top: 13%;
+    color: #fff;
+    max-width: 620px;
+    margin-left: 0%;
+}
+
+/* Styles for .content h1 */
+.content h1 {
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 85px;
+    margin-bottom: 25px;
+}
+footer {
+    background-color:grey;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
